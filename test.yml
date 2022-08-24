@@ -1,0 +1,17 @@
+id: 1
+name: Guru
+identifier: testId
+ssn: 1213213143
+emp:
+  id: 1
+  name: GM
+  age: 30
+array:
+  - 1
+  - 2
+  - 3
+arrayOfObjects:
+  - key1: null
+    name: AOB1
+  - key2: null
+    name: AOB2

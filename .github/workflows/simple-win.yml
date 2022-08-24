@@ -1,0 +1,23 @@
+name: Win32 Commands
+
+on: [push]
+
+jobs:
+  run-win32-command:
+    runs-on: windows-latest
+    steps:
+      - name: Powershell command
+        run: Get-Location
+      - name: Bash command
+        run: pwd
+        shell: bash
+
+  run-bash-command:
+    runs-on: ubuntu-latest
+    needs: [run-win32-command]
+    steps:
+      - name: echo from bash
+        run: echo msg from bash...
+      - name: Bash command
+        run: pwd
+        shell: bash
