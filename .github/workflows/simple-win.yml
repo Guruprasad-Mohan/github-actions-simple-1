@@ -1,4 +1,4 @@
-name: Win32 Commands
+name: Win32 Commands from git-actions
 
 on: [push]
 
