@@ -1,4 +1,4 @@
-name: Win32 Commands from git-actions
+name: Win32 Commands from git-actions from branch
 
 on: [push]
 
